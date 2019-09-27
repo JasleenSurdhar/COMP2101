@@ -21,8 +21,7 @@ fpdividend=$(awk "BEGIN{printf \"%.2f\", $firstnumber/$secondnumber}")
 
 cat <<EOF
 $firstnumber plus $secondnumber is $sum
-$firstnumber divided by $secondnumber is $dividend
-$firstnumber modulas with $secondnumber gives $remainder
+$firstnumber divided by $secondnumber gives $dividend with reminder of $remainder
   - More precisely, it is $fpdividend
 $firstnumber multiplied by $secondnumber is $multiply
 $firstnumber subtractng by $secondnumber is $sub
