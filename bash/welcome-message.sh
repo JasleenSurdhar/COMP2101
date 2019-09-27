@@ -14,7 +14,7 @@
 ###############
 title="Overlord"
 name="$USER"
-date=$(date + '%I:%M %p')
+date=$(date + '%I:%M:%p')
 weekday=$(date +%u)
 hostname=$(hostname)
 
@@ -29,5 +29,5 @@ EOF
 if (($weekday > 5 )); then
   echo "It is $date onWeekend."
 else
-  echo"It is $date on Weekday."
+  echo "It is $date on Weekday."
 fi
