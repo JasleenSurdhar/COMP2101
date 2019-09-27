@@ -14,7 +14,7 @@
 ###############
 title="Overlord"
 name="$USER"
-date=$(date + '%I:%M:%p')
+date=$(date +'%I:%M %P')
 weekday=$(date +%u)
 hostname=$(hostname)
 
